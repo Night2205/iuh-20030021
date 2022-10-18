@@ -191,7 +191,7 @@ body {
     margin-top: 20px;
     transition: 0.3s
 }
-.trend {
+.trend1 {
     padding: 50px 2%;
     display: flex;
     justify-content: center;
@@ -202,22 +202,22 @@ body {
     text-align: center;
 }
 
-.trend .trend-item {
+.trend1 .trend-item1 {
     flex: 1;
     position: relative;
     height: 300px;
     overflow: hidden;
 }
 
-.trend .trend-item img {
+.trend1 .trend-item1 img {
     transition: all 0.7s
 }
 
-.trend .trend-item:hover img {
+.trend1 .trend-item1:hover img {
     transform: scale(1.1);
 }
 
-.trend .trend-item .trend-addidas {
+.trend1 .trend-item1 .trend-addidas1 {
     position: absolute;
     top: 75%;
     left: 32%;
@@ -227,25 +227,8 @@ body {
     line-height: 2;
 }
 
-.trend .trend-item .trend-nike {
-    position: absolute;
-    top: 75%;
-    left: 30%;
-    color: #ffffff;
-    transform: translate(-70%, -50%);
-    font-size: 16px;
-    line-height: 2;
-}
-.trend .trend-item .trend-mlb {
-    position: absolute;
-    top: 75%;
-    left: 35%;
-    color: #000000;
-    transform: translate(-70%, -50%);
-    font-size: 15px;
-    line-height: 2;
-}
-.trend .trend-item  p {
+
+.trend1 .trend-item1  p {
     border-bottom: 2px solid #6e3d5b;   
 }
 
@@ -420,23 +403,17 @@ body {
         color: #fff;
         cursor: pointer;
     }
-    .content .trend{
+    .content1 .trend1{
         width: 100%;
         background-size: 100%;
         background-position: center;
     }
-    .content .trend .trend-item{
+    .content1 .trend1 .trend-item1{
             width: 100%;
             max-width: pixcel;
             height:auto;
     }
-    .content .trend .trend-item .trend-addidas{
-        font-size: 1rem;
-    }
-    .content .trend .trend-item .trend-nike{
-        font-size: 1rem;
-    }
-    .content .trend .trend-item .trend-mlb{
+    .content1 .trend1 .trend-item1 .trend-addidas1{
         font-size: 1rem;
     }
 }
@@ -465,26 +442,18 @@ body {
         color: #fff;
         cursor: pointer;
     }
-    .content .trend{
+    .content1 .trend1{
         width: 100%;
         background-size: 100%;
         background-position: center;
     }
-    .content .trend .trend-item{
+    .content1 .trend1 .trend-item1{
             width: 100%;
             max-width: pixcel;
             height:auto;
     }
-    .content .trend .trend-item .trend-addidas{
-        font-size: 0.8rem;
-    }
-    .content .trend .trend-item .trend-addidas1{
+   
+    .content1 .trend1 .trend-item1 .trend-addidas1{
         font-size: 0.5rem;
-    }
-    .content .trend .trend-item .trend-nike{
-        font-size: 1rem;
-    }
-    .content .trend .trend-item .trend-mlb{
-        font-size: 1rem;
     }
 }
