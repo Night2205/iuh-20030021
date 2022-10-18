@@ -366,3 +366,93 @@ body {
 .product h3 {
     margin-top: 20px;
 }
+@media screen and (max-width: 1200px){
+    html {
+        font-size: 55%;
+    }
+    
+    .header .header-top .header-logo{
+        font-size: 1.5rem;
+    }
+    .header .header-top .header-top_left{
+        font-size: 1.0rem;
+    }
+    .header .header-mid .header-mid_logo{
+        max-width: 100%;
+        background-size: 100%;
+        background-position: center;
+        display: none
+    }
+    .header .header-mid .header-mid_search{
+        width:100% ;
+    }
+    .header .header-bot .menu{
+        font-size: 1rem;
+        color: #fff;
+        cursor: pointer;
+    }
+    .content .trend{
+        width: 100%;
+        background-size: 100%;
+        background-position: center;
+    }
+    .content .trend .trend-item{
+            width: 100%;
+            max-width: pixcel;
+            height:auto;
+    }
+    .content .trend .trend-item .trend-addidas{
+        font-size: 1rem;
+    }
+    .content .trend .trend-item .trend-nike{
+        font-size: 1rem;
+    }
+    .content .trend .trend-item .trend-mlb{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 786px){
+    html {
+        font-size: 55%;
+    }
+    
+    .header .header-top .header-logo{
+        font-size: 1.5rem;
+    }
+    .header .header-top .header-top_left{
+        font-size: 1.0rem;
+    }
+    .header .header-mid .header-mid_logo{
+        max-width: 100%;
+        background-size: 100%;
+        background-position: center;
+        display: none
+    }
+    .header .header-mid .header-mid_search{
+        width:100% ;
+    }
+    .header .header-bot .menu{
+        font-size: 1rem;
+        color: #fff;
+        cursor: pointer;
+    }
+    .content .trend{
+        width: 100%;
+        background-size: 100%;
+        background-position: center;
+    }
+    .content .trend .trend-item{
+            width: 100%;
+            max-width: pixcel;
+            height:auto;
+    }
+    .content .trend .trend-item .trend-addidas{
+        font-size: 0.8rem;
+    }
+    .content .trend .trend-item .trend-nike{
+        font-size: 1rem;
+    }
+    .content .trend .trend-item .trend-mlb{
+        font-size: 1rem;
+    }
+}
