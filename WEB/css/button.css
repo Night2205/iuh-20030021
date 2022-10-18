@@ -57,8 +57,68 @@
     height: 100%;
     width: 100%;
     }
-    @media screen and (max-width: 786px) {
-        .btn{
-            display:none
+    
+    .btn1 {
+        background-color: #000000;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'BenchNine', Arial, sans-serif;
+        font-size: 1em;
+        font-size: 22px;
+        line-height: 1em;
+        outline: none;
+        padding: 12px 40px 10px;
+        position: relative;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-left: 100px;
+        margin-top: 20px;
         }
-    }
+    
+        .btn1:before,
+        .btn1:after {
+        border-color: transparent;
+        -webkit-transition: all 0.25s;
+        transition: all 0.25s;
+        border-style: solid;
+        border-width: 0;
+        content: "";
+        height: 24px;
+        position: absolute;
+        width: 24px;
+        }
+    
+        .btn1:before {
+        border-color: #000000;
+        border-top-width: 2px;
+        left: 0px;
+        top: -5px;
+        }
+    
+        .btn1:after {
+        border-bottom-width: 2px;
+        border-color: #000000;
+        bottom: -5px;
+        right: 0px;
+        }
+    
+        .btn1:hover,
+        .btn1.hover {
+        background-color: rgb(45, 124, 129);
+        }
+    
+        .btn1:hover:before,
+        .btn1.hover:before,
+        .btn1:hover:after,
+        .btn1.hover:after {
+        height: 100%;
+        width: 100%;
+        }
+        @media screen and (max-width: 786px){
+            .btn {
+                display: none;
+            }
+        }
+        
