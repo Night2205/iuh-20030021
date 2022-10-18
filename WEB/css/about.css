@@ -459,9 +459,9 @@ body {
     .content1 .trend1 .trend-item1 .trend-addidas1 p{
         font-size: 1pw;
         font-size: 1pv;
+        display:none;
     }
     .content1 .trend1 .trend-item1 .trend-addidas1 h1{
-        font-size: 1pw;
-        font-size: 1pv;
+        font-size:medium;
     }
 }
