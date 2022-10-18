@@ -304,23 +304,19 @@ html{
        color: #fff;
        cursor: pointer;
    }
-   .content .trend{
-       width: 100%;
-       background-size: 100%;
-       background-position: center;
+   
+   .login-container{
+      width: 100%;
    }
-   .content .trend .trend-item{
-           width: 100%;
-           max-width: pixcel;
-           height:auto;
+   .login-container .logo{
+      display: none;
+      
    }
-   .content .trend .trend-item .trend-addidas{
-       font-size: 0.8rem;
+   .login-container .register{
+      display: none;
    }
-   .content .trend .trend-item .trend-nike{
-       font-size: 1rem;
-   }
-   .content .trend .trend-item .trend-mlb{
-       font-size: 1rem;
+   .form-login{
+      max-width: 100%;
+      padding-right: 100%;
    }
 }
