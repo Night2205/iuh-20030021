@@ -462,7 +462,6 @@ body {
         display:none;
     }
     .content1 .trend1 .trend-item1 .trend-addidas1 h1{
-        font-size:medium;
-        margin-left: 20%;
+        text-align: center;
     }
 }
