@@ -393,7 +393,7 @@ body {
   }
 
 .product p {
-    font-size: 30px;
+    font-size: 30px
 
 }
 .product h3 {
@@ -498,6 +498,9 @@ body {
             width: 100%;
             max-width: pixcel;
             height:auto
+    }
+    .product p{
+        font-size: 1rem;
     }
     .content .trend .trend-item .trend-addidas{
         font-size: 0.8rem;
