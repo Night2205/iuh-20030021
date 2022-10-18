@@ -440,7 +440,7 @@ body {
         font-size: 1rem;
     }
 }
-@media screen and (max-width: 786x){
+@media screen and (max-width: 786px){
     html {
         font-size: 55%;
     }
