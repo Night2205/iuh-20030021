@@ -420,4 +420,23 @@ body {
         color: #fff;
         cursor: pointer;
     }
+    .content .trend{
+        width: 100%;
+        background-size: 100%;
+        background-position: center;
+    }
+    .content .trend .trend-item{
+            width: 100%;
+            max-width: pixcel;
+            height:auto;
+    }
+    .content .trend .trend-item .trend-addidas{
+        font-size: 1rem;
+    }
+    .content .trend .trend-item .trend-nike{
+        font-size: 1rem;
+    }
+    .content .trend .trend-item .trend-mlb{
+        font-size: 1rem;
+    }
 }
