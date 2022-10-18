@@ -396,6 +396,11 @@ body {
         background-size: 100%;
         background-position: center;
     }
+    .content .banner{ 
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
     .content .trend .trend-item{
             width: 100%;
             max-width: pixcel;
@@ -436,15 +441,20 @@ body {
         color: #fff;
         cursor: pointer;
     }
+    .content .banner{ 
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
     .content .trend{
         width: 100%;
         background-size: 100%;
         background-position: center;
     }
-    .content .trend .trend-item{
+    .trend .trend-item img{
             width: 100%;
             max-width: pixcel;
-            height:auto;
+            height:auto
     }
     .content .trend .trend-item .trend-addidas{
         font-size: 0.8rem;
